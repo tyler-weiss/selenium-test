@@ -14,7 +14,9 @@ Well this runs on python so, let's first make sure you have a python package man
 Sweet! Now you have pip installed.
 
 (begin optional)
+
 STARTING VIRTUALWRAPPER 
+
 I usually do a virtualenv with projects. Have VirtualBox installed...which virtualenv ties into https://www.virtualbox.org/wiki/VirtualBox  to make virtual machines for your project to run on...this way you can create and remove them without messing with packages for other projects.
 http://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation
 ```
@@ -25,8 +27,11 @@ look through this http://virtualenvwrapper.readthedocs.io/en/latest/install.html
 mkvirtualenv VMforTestingSelenium
 workon VMforTestingSelenium
 ```
+
 ENDING VIRTUALWRAPPER
+
 (end optional)
+
 now run
 ```
 pip install -r requirements.txt
