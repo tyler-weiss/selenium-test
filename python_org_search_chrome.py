@@ -26,7 +26,7 @@ driver.get('http://www.google.com/xhtml')
 search_box = driver.find_element_by_name('q')
 search_box.send_keys('zerg rush')
 search_box.submit()
-time.sleep(150)
+time.sleep(10)
 
 print "driver.quit()", ENDC
 driver.quit()
