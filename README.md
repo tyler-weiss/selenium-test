@@ -15,7 +15,7 @@ Sweet! Now you have pip installed.
 
 (begin optional)
 STARTING VIRTUALWRAPPER 
-I usually do a virtualenv with projects (usually have VirtualBox installed...which virtualenv ties into https://www.virtualbox.org/wiki/VirtualBox ) to make virtual machines for your project to run on...this way you can create and remove them without messing with packages for other projects.
+I usually do a virtualenv with projects. Have VirtualBox installed...which virtualenv ties into https://www.virtualbox.org/wiki/VirtualBox  to make virtual machines for your project to run on...this way you can create and remove them without messing with packages for other projects.
 http://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation
 ```
 pip install virtualenvwrapper
