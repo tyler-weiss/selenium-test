@@ -13,7 +13,7 @@ Sweet! Now you have pip installed.
 
 (**begin optional virtual machine stuff**)
 
-I usually do a virtualenv with projects. Have VirtualBox installed...which virtualenv ties into https://www.virtualbox.org/wiki/VirtualBox  to make virtual machines for your project to run on...this way you can create and remove them without messing with packages for other projects.
+Usually you would want to run with virtualenv for projects. It creates a shim for packages and executables so that version don't interfere with other projects.  
 http://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation
 ```
 pip install virtualenvwrapper
