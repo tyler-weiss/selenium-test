@@ -11,7 +11,7 @@ Well this runs on python so, let's first make sure you have a **python package m
 
 Sweet! Now you have pip installed.
 
-(**begin optional virtual machine stuff**)
+(**begin optional virtual environment stuff**)
 
 Usually you would want to run with virtualenv for projects. It creates a shim for packages and executables so that version don't interfere with other projects.  
 http://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation
@@ -24,7 +24,7 @@ mkvirtualenv VMforTestingSelenium
 workon VMforTestingSelenium
 ```
 
-(**end optional virtual machine stuff**)
+(**end optional virtual environment stuff**)
 
 now run
 ```
